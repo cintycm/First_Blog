@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.top-bar {
+    background-color: #fafafa;
+    color: rgba(0, 0, 0, .85);
+}
+.top-bar__content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-bar__menu,
+.top-bar__social-media {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.top-bar__menu span {
+    width: 80px;
+    font-size: 11px;
+    transition: color 0.5s
+    
+}
+.top-bar__menu span:hover {
+    color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.top-bar__social-media i {
+    width: 25px;
+    transition: color 0.5s
+}
+.top-bar__social-media i:hover {
+    color: red;
+    cursor: pointer;
+}
+.brand-logo {
+    text-align: center;
+    padding: 35px;
+}
+.posts {
+    width: 400px;
+    margin: 0 auto;
+}
+.posts div img {
+    width: 400px;
+}
+.h2 {
+    font-family:"Open Sans", sans-serif;
+}
+article{
+    background: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 20px;
+    margin-bottom: 15px;
+}
